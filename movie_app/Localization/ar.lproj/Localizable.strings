@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Esraa on 6/3/20.
+  Copyright © 2020 Esraa Masuad. All rights reserved.
+*/
+
+"AppRegularFont" = "Cairo-Regular";
+"AppBoldFont" = "Tajawal-Medium";
