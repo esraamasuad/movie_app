@@ -14,11 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        setLanguage()
-        setNavStyle()
-        
-    //    self.window = UIWindow(frame:UIScreen.main.bounds)
-   
         return true
     }
     
@@ -27,16 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UILabel.appearance().substituteFontNameBold = "AppBoldFont".localize()
     }
     
-    func setNavStyle(){
-        UINavigationBar.appearance().tintColor = UIColor.assetColor
-        UINavigationBar.appearance().barTintColor = UIColor.navColor
-    }
-    
     func applicationDidBecomeActive(_ application: UIApplication) {
     }
     
     func applicationDidEnterBackground(_ application: UIApplication) {
-        //    UsersConnectedSocket.instance.userDisconnected()
     }
     
 }
